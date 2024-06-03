@@ -2,14 +2,18 @@
   "name": "learnbackend",
   "version": "1.0.0",
   "description": "A project to learn backend from beginner ton",
-  "main": " ",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascipt",
     "nodejs"
   ],
   "author": "Kavita Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
 }
